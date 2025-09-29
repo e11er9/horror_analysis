@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "horror_movie_analysis"
+version = "0.0.1"
+description = "This is my analysis of horror movie data"
+authors = [
+  { name = "Ryan Eller" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "==3.11.5"
+
+
+[tool.ruff]
+line-length = 99
+src = ["horror_movie_analysis"]
+include = ["pyproject.toml", "horror_movie_analysis/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["horror_movie_analysis"]
+force-sort-within-sections = true
+
