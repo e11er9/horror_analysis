@@ -3,6 +3,15 @@
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
+## Sprint 2 progress
+### Updates
+- Added the raw horror movie dataset (`data/raw/horror_data_master_v10_final_only.csv`)
+- Added data gathering, cleaning, and exploratory data analysis notebooks (`notebooks/Sprint_2_EDA.ipynb`, `notebooks/building_core_imdb_horrort2_.ipynb`, `notebooks/horror_data_gatheringpt1.py` )
+- Completed exploratory analysis and variable review in Sprint 2
+
+### Summary
+In Sprint 2, I successfully gathered and cleaned the horror movie dataset, performed exploratory data analysis, and refined my problem statement to focus on predicting box office revenue for horror films. The next sprint will focus on building predictive models and testing which features best explain box office performance.
+
 
 This is my analysis of horror movie data
 
